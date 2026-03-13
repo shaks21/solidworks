@@ -1,6 +1,6 @@
-# 🚀 Welcome to Z.ai Code Scaffold
+# 🚀 Next.js Production Scaffold
 
-A modern, production-ready web application scaffold powered by cutting-edge technologies, designed to accelerate your development with [Z.ai](https://chat.z.ai)'s AI-powered coding assistance.
+A modern, production-ready web application scaffold powered by cutting-edge technologies.
 
 ## ✨ Technology Stack
 
@@ -52,37 +52,24 @@ This scaffold provides a robust foundation built with:
 - **📊 Data Visualization** - Charts, tables, and drag-and-drop functionality
 - **🌍 i18n Ready** - Multi-language support with Next Intl
 - **🚀 Production Ready** - Optimized build and deployment settings
-- **🤖 AI-Friendly** - Structured codebase perfect for AI assistance
 
 ## 🚀 Quick Start
 
 ```bash
 # Install dependencies
-bun install
+npm install
 
 # Start development server
-bun run dev
+npm run dev
 
 # Build for production
-bun run build
+npm run build
 
 # Start production server
-bun start
+npm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to see your application running.
-
-## 🤖 Powered by Z.ai
-
-This scaffold is optimized for use with [Z.ai](https://chat.z.ai) - your AI assistant for:
-
-- **💻 Code Generation** - Generate components, pages, and features instantly
-- **🎨 UI Development** - Create beautiful interfaces with AI assistance  
-- **🔧 Bug Fixing** - Identify and resolve issues with intelligent suggestions
-- **📝 Documentation** - Auto-generate comprehensive documentation
-- **🚀 Optimization** - Performance improvements and best practices
-
-Ready to build something amazing? Start chatting with Z.ai at [chat.z.ai](https://chat.z.ai) and experience the future of AI-powered development!
 
 ## 📁 Project Structure
 
@@ -129,14 +116,7 @@ This scaffold includes a comprehensive set of modern web development tools:
 - **Type Safety**: End-to-end TypeScript with Zod validation
 - **Essential Hooks**: 100+ useful React hooks with ReactUse for common patterns
 
-## 🤝 Get Started with Z.ai
-
-1. **Clone this scaffold** to jumpstart your project
-2. **Visit [chat.z.ai](https://chat.z.ai)** to access your AI coding assistant
-3. **Start building** with intelligent code generation and assistance
-4. **Deploy with confidence** using the production-ready setup
-
 ---
 
-Built with ❤️ for the developer community. Supercharged by [Z.ai](https://chat.z.ai) 🚀
+Built with ❤️ for the developer community.
 # solidworks
