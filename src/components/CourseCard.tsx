@@ -50,15 +50,15 @@ export default function CourseCard({ course }: CourseCardProps) {
         </p>
 
         {/* Topics Preview - Fixed height for exactly 3 items */}
-        <div className="mb-5 grow h-21">
+        <div className="mb-5 grow ">
           <p className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">What You&apos;ll Learn</p>
           <ul className="space-y-1.5">
             {course.topics.slice(0, 3).map((topic, index) => (
-              <li key={index} className="flex items-start gap-2 text-sm text-gray-600 h-5.5">
+              <li key={index} className="flex items-start gap-2 text-sm text-gray-600 ">
                 <svg className="w-4 h-4 text-blue-500 mt-0 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="line-clamp-1">{topic}</span>
+                <span className="">{topic}</span>
               </li>
             ))}
           </ul>
