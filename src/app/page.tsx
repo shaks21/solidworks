@@ -6,31 +6,31 @@ import { courses } from '@/lib/courses';
 // Testimonials data
 const testimonials = [
   {
-    name: 'Sarah Chen',
-    role: 'Mechanical Engineer at Dyson',
+    name: '',
+    role: '',
     image: 'SC',
-    content: 'The SolidWorks Essentials course was exactly what I needed to transition into 3D CAD design. The live online format was incredibly convenient, and the flexible timing made it easy to learn while working full-time. Highly recommended!',
+    content: 'Clear, helpful, patient, welcoming, professional',
     rating: 5
   },
   {
-    name: 'Michael Wong',
-    role: 'Product Designer at Creative Labs',
+    name: '',
+    role: '',
     image: 'MW',
-    content: 'I took both the Surface Modeling and Advanced Part courses online. The instructors were incredibly knowledgeable and patient. The skills I gained helped me land my dream job in consumer product design.',
+    content: 'Great course, great trainer. Very patient, answered all the questions thrown at him and made the course fun!',
     rating: 5
   },
   {
-    name: 'Amanda Tan',
-    role: 'Manufacturing Engineer at HP',
+    name: '',
+    role: '',
     image: 'AT',
-    content: 'The Sheet Metal Design course was comprehensive and practical. I was able to apply what I learned immediately to my projects at work. The small class size ensured personalized attention even in the online format.',
+    content: 'Top quality training - The course trainer was very welcoming, well spoken and engaging. Information was clearly presented and he was a big help',
     rating: 5
   },
   {
-    name: 'David Lim',
-    role: 'CAD Manager at ST Engineering',
+    name: '',
+    role: '',
     image: 'DL',
-    content: 'We sent our entire team for online training and the results were outstanding. The customized curriculum addressed our specific industry needs. Our productivity has increased significantly since the training.',
+    content: 'Great course, excellent trainer - Really enjoyed the course and found the instructor to be a great trainer, with a comprehensive knowledge of the subject and course content. He was also very happy to spend time after the class had finished on answering any questions on Solidworks, not just ones relevant to the course. I would have no hesitation in recommending this course to anyone who is thinking of doing this course.',
     rating: 5
   }
 ];
@@ -227,8 +227,8 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-2">Email Us</h3>
-                <a href="mailto:info@solidworkstraining.com" className="text-blue-600 hover:text-blue-700 text-sm">
-                  info@solidworkstraining.com
+                <a href="mailto:solidprox@gmail.com" className="text-blue-600 hover:text-blue-700 text-sm">
+                  solidprox@gmail.com
                 </a>
               </div>
 
@@ -240,8 +240,8 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-2">Call Us</h3>
-                <a href="tel:+6512345678" className="text-blue-600 hover:text-blue-700 text-sm">
-                  +65 1234 5678
+                <a href="tel:+447460268842" className="text-blue-600 hover:text-blue-700 text-sm">
+                  +44 7460 268 842 
                 </a>
               </div>
 
