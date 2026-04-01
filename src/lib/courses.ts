@@ -72,7 +72,7 @@ export const courses: Course[] = [
     title: 'SOLIDWORKS Drawings',
     description: 'Create professional technical drawings with proper views, dimensions, annotations, and bills of materials following industry standards.',
     longDescription: 'The Drawing course focuses on producing clear and accurate engineering drawings from SOLIDWORKS models. It covers drawing templates, standard views, section views, detail views, dimensions, annotations, and bill of materials. Participants will learn how to create professional technical documentation that communicates design intent and manufacturing information effectively.',
-    duration: '2 Days',
+    duration: '3 Days',
     level: 'Beginner',
     icon: '📐',
     topics: [
@@ -129,7 +129,7 @@ export const courses: Course[] = [
     title: 'Surface Modeling',
     description: 'Create complex organic shapes and surfaces for consumer products, automotive, and industrial design applications.',
     longDescription: 'This advanced course introduces surface modelling techniques used to create complex geometry that cannot easily be produced using standard solid features. It covers creating surfaces, editing and trimming surfaces, repairing imported geometry, and converting surface models into solid bodies. Participants will gain the skills needed to design complex shapes and refine difficult geometry.',
-    duration: '3 Days',
+    duration: '2 Days',
     level: 'Advanced',
     icon: '✨',
     topics: [
@@ -148,7 +148,7 @@ export const courses: Course[] = [
     title: 'Mold Tools',
     description: 'Design injection molds with proper parting lines, cores, cavities, and mold base components for plastic part production.',
     longDescription: 'The Mould Tools course focuses on preparing plastic parts for mould manufacturing using SOLIDWORKS. It covers draft analysis, identifying undercuts, defining parting lines, creating shut-off and parting surfaces, and splitting parts into core and cavity bodies. Participants will learn how to evaluate plastic part designs and prepare models for mould tooling production.',
-    duration: '3 Days',
+    duration: '2 Days',
     level: 'Advanced',
     icon: '🏭',
     topics: [

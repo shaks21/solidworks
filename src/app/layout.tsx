@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   keywords: ["SolidWorks", "CAD Training", "3D Modeling", "Engineering", "Design", "Manufacturing", "Singapore"],
   authors: [{ name: "SolidWorks Training" }],
   icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+    // icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
   },
   openGraph: {
     title: "Professional SolidWorks Training",

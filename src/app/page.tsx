@@ -1,72 +1,81 @@
-import Hero from '@/components/Hero';
-import CourseCard from '@/components/CourseCard';
-import EnquiryForm from '@/components/EnquiryForm';
-import { courses } from '@/lib/courses';
+import Hero from "@/components/Hero";
+import CourseCard from "@/components/CourseCard";
+import EnquiryForm from "@/components/EnquiryForm";
+import { courses } from "@/lib/courses";
 
 // Testimonials data
 const testimonials = [
   {
-    name: '',
-    role: '',
-    image: 'SC',
-    content: 'Clear, helpful, patient, welcoming, professional',
-    rating: 5
+    name: "",
+    role: "",
+    image: "SC",
+    content: "Clear, helpful, patient, welcoming, professional",
+    rating: 5,
   },
   {
-    name: '',
-    role: '',
-    image: 'MW',
-    content: 'Great course, great trainer. Very patient, answered all the questions thrown at him and made the course fun!',
-    rating: 5
+    name: "",
+    role: "",
+    image: "MW",
+    content:
+      "Great course, great trainer. Very patient, answered all the questions thrown at him and made the course fun!",
+    rating: 5,
   },
   {
-    name: '',
-    role: '',
-    image: 'AT',
-    content: 'Top quality training - The course trainer was very welcoming, well spoken and engaging. Information was clearly presented and he was a big help',
-    rating: 5
+    name: "",
+    role: "",
+    image: "AT",
+    content:
+      "Top quality training - The course trainer was very welcoming, well spoken and engaging. Information was clearly presented and he was a big help",
+    rating: 5,
   },
   {
-    name: '',
-    role: '',
-    image: 'DL',
-    content: 'Great course, excellent trainer - Really enjoyed the course and found the instructor to be a great trainer, with a comprehensive knowledge of the subject and course content. He was also very happy to spend time after the class had finished on answering any questions on Solidworks, not just ones relevant to the course. I would have no hesitation in recommending this course to anyone who is thinking of doing this course.',
-    rating: 5
-  }
+    name: "",
+    role: "",
+    image: "DL",
+    content:
+      "Great course, excellent trainer - Really enjoyed the course and found the instructor to be a great trainer, with a comprehensive knowledge of the subject and course content. He was also very happy to spend time after the class had finished on answering any questions on Solidworks, not just ones relevant to the course. I would have no hesitation in recommending this course to anyone who is thinking of doing this course.",
+    rating: 5,
+  },
 ];
 
 // Features data - updated for online training
 const features = [
   {
-    icon: '👨‍🏫',
-    title: 'Expert Instructors',
-    description: 'Learn from certified SolidWorks professionals with years of industry experience.'
+    icon: "👨‍🏫",
+    title: "Expert Instructors",
+    description:
+      "Learn from certified SolidWorks professionals with years of industry experience.",
   },
   {
-    icon: '⏰',
-    title: 'Flexible Scheduling',
-    description: 'Choose from weekday, weekend, or evening sessions to fit your busy schedule.'
+    icon: "⏰",
+    title: "Flexible Scheduling",
+    description:
+      "Choose from weekday, weekend, or evening sessions to fit your busy schedule.",
   },
   {
-    icon: '🎯',
-    title: 'Hands-On Training',
-    description: 'Practical exercises and real-world projects ensure you gain job-ready skills.'
+    icon: "🎯",
+    title: "Hands-On Training",
+    description:
+      "Practical exercises and real-world projects ensure you gain job-ready skills.",
   },
   {
-    icon: '📜',
-    title: 'Certification Prep',
-    description: 'Prepare for SolidWorks certification exams with targeted practice and guidance.'
+    icon: "📜",
+    title: "Certification Prep",
+    description:
+      "Prepare for SolidWorks certification exams with targeted practice and guidance.",
   },
   {
-    icon: '🌐',
-    title: 'Learn from Anywhere',
-    description: 'Join live online sessions from the comfort of your home or office, anywhere in the world.'
+    icon: "🌐",
+    title: "Learn from Anywhere",
+    description:
+      "Join live online sessions from the comfort of your home or office, anywhere in the world.",
   },
   {
-    icon: '🔄',
-    title: 'Post-Training Support',
-    description: 'Get continued support and resources even after completing your course.'
-  }
+    icon: "🔄",
+    title: "Post-Training Support",
+    description:
+      "Get continued support and resources even after completing your course.",
+  },
 ];
 
 export default function Home() {
@@ -83,17 +92,23 @@ export default function Home() {
               Why Choose Our Training?
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              We provide comprehensive live online SolidWorks training designed to help you succeed in your engineering career.
+              We provide comprehensive live online SolidWorks training designed
+              to help you succeed in your engineering career.
             </p>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
-              <div key={index} className="text-center p-6 rounded-2xl bg-gray-50 hover:bg-blue-50 transition-colors group">
+              <div
+                key={index}
+                className="text-center p-6 rounded-2xl bg-gray-50 hover:bg-blue-50 transition-colors group"
+              >
                 <div className="w-16 h-16 bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl flex items-center justify-center mx-auto mb-4 text-3xl group-hover:scale-110 transition-transform">
                   {feature.icon}
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">{feature.title}</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                  {feature.title}
+                </h3>
                 <p className="text-gray-600">{feature.description}</p>
               </div>
             ))}
@@ -109,7 +124,8 @@ export default function Home() {
               Our Courses
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              From fundamentals to advanced techniques, we offer a complete range of SolidWorks training courses.
+              From fundamentals to advanced techniques, we offer a complete
+              range of SolidWorks training courses.
             </p>
           </div>
 
@@ -129,7 +145,8 @@ export default function Home() {
               What Our Students Say
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Join hundreds of satisfied professionals who have transformed their careers with our online training.
+              Join hundreds of satisfied professionals who have transformed
+              their careers with our online training.
             </p>
           </div>
 
@@ -138,8 +155,12 @@ export default function Home() {
               <div key={index} className="bg-gray-50 rounded-2xl p-8 relative">
                 {/* Quote Icon */}
                 <div className="absolute top-6 right-6 text-blue-100">
-                  <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                  <svg
+                    className="w-12 h-12"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
                   </svg>
                 </div>
 
@@ -148,7 +169,9 @@ export default function Home() {
                     {testimonial.image}
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
+                    <h4 className="font-semibold text-gray-900">
+                      {testimonial.name}
+                    </h4>
                     <p className="text-sm text-gray-500">{testimonial.role}</p>
                   </div>
                 </div>
@@ -160,8 +183,13 @@ export default function Home() {
                 {/* Stars */}
                 <div className="flex gap-1">
                   {Array.from({ length: testimonial.rating }).map((_, i) => (
-                    <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                    <svg
+                      key={i}
+                      className="w-5 h-5 text-yellow-400"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                   ))}
                 </div>
@@ -178,7 +206,9 @@ export default function Home() {
             Ready to Master SolidWorks?
           </h2>
           <p className="text-xl text-blue-200 mb-8">
-            Take the first step towards advancing your engineering career. Contact us today to learn more about our live online courses and schedule.
+            Take the first step towards advancing your engineering career.
+            Contact us today to learn more about our live online courses and
+            schedule.
           </p>
           <a href="#enquiry">
             <button className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-10 py-4 text-lg font-semibold rounded-xl shadow-lg shadow-blue-500/30 transition-all hover:scale-105">
@@ -196,7 +226,8 @@ export default function Home() {
               Enquire Now
             </h2>
             <p className="text-lg text-gray-600">
-              Interested in our courses? Fill out the form below and we&apos;ll get back to you within 24 hours.
+              Interested in our courses? Fill out the form below and we&apos;ll
+              get back to you within 24 hours.
             </p>
           </div>
 
@@ -213,21 +244,35 @@ export default function Home() {
                 Contact Information
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                Have questions about our courses or need help choosing the right one for your career goals? 
-                Our friendly team is here to help you every step of the way.
+                Have questions about our courses or need help choosing the right
+                one for your career goals? Our friendly team is here to help you
+                every step of the way.
               </p>
             </div>
 
-            <div className="grid sm:grid-cols-3 gap-8">
+            <div className="grid sm:grid-cols-2 gap-8">
               {/* Email */}
               <div className="text-center p-6 bg-gray-50 rounded-2xl">
                 <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  <svg
+                    className="w-7 h-7 text-blue-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
                   </svg>
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-2">Email Us</h3>
-                <a href="mailto:solidprox@gmail.com" className="text-blue-600 hover:text-blue-700 text-sm">
+                <a
+                  href="mailto:solidprox@gmail.com"
+                  className="text-blue-600 hover:text-blue-700 text-sm"
+                >
                   solidprox@gmail.com
                 </a>
               </div>
@@ -235,42 +280,85 @@ export default function Home() {
               {/* Phone */}
               <div className="text-center p-6 bg-gray-50 rounded-2xl">
                 <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  <svg
+                    className="w-7 h-7 text-blue-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                    />
                   </svg>
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-2">Call Us</h3>
-                <a href="tel:+447460268842" className="text-blue-600 hover:text-blue-700 text-sm">
-                  +44 7460 268 842 
+                <h3 className="font-semibold text-gray-900 mb-2">
+                  Contact Us on WhatsApp
+                </h3>
+                <a
+                  href="https://wa.me/447460268842"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-700 text-sm"
+                >
+                  +44 7460 268 842
                 </a>
               </div>
 
               {/* Hours */}
-              <div className="text-center p-6 bg-gray-50 rounded-2xl">
+              {/* <div className="text-center p-6 bg-gray-50 rounded-2xl">
                 <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <svg
+                    className="w-7 h-7 text-blue-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
                   </svg>
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-2">Support Hours</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">
+                  Support Hours
+                </h3>
                 <p className="text-gray-600 text-sm">
-                  Mon - Fri: 9AM - 6PM<br />
+                  Mon - Fri: 9AM - 6PM
+                  <br />
                   Sat: 9AM - 1PM
                 </p>
-              </div>
+              </div> */}
             </div>
 
             {/* Online Training Notice */}
             <div className="mt-12 text-center p-8 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl border border-blue-100">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                <svg
+                  className="w-8 h-8 text-blue-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                  />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">100% Live Online Training</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                100% Live Online Training
+              </h3>
               <p className="text-gray-600 max-w-xl mx-auto">
-                All our courses are delivered live online, allowing you to learn from anywhere in the world. 
-                Join interactive sessions with expert instructors without leaving your home or office.
+                All our courses are delivered live online, allowing you to learn
+                from anywhere in the world. Join interactive sessions with
+                expert instructors without leaving your home or office.
               </p>
             </div>
           </div>
